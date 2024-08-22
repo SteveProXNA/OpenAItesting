@@ -1,18 +1,16 @@
-##### README.md
+##### Farma Cheat Sheet
 ###### 15-Sep-2024
-
-Code samples for StevePro Studios blog post [OpenAI Farma Cheat Sheet](https://steveproxna.blogspot.com/2024/09/openai-farma-cheat-sheet.html)
 
 Launch PyCharm | New project | FarmaCheatSheet
 ```
 FarmaCheatSheet
 ~/GitHub/SteveProXNA/OpenAItesting
-source bin activate
+source .venv/bin/activate
 ```
 IMPORTANT: if Python Interpreter not set and/or Virtual Environment not available then:
 ```
 File | Settings... | Project: Python Interpreter | Add Interpreter | Add Local Interpreter
-source bin activate
+source .venv/bin/activate
 ```
 
 Copy Farma Foundation __requirements.txt__ from [here](https://github.com/Farama-Foundation/Gymnasium/blob/main/docs/requirements.txt).
